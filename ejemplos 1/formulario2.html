@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table align="center" width="500">
+            <tr widht="500">
+                <td>
+                    <fieldset>
+                        <legend>Your details </legend>
+                        <label for="Name">1.Name </label>
+                        <input name="Name" id="Name" placeholder="first name last name"> <br>  
+                        <label for="Email">2.Email </label>
+                        <input name="Email" id="Email" placeholder="example@domai.com"> <br>    
+                        <label for="Phone">3.Phone</label>
+                        <input name="Phone" id="Phone" placeholder="Eg. +457500000000"> <br>          
+                        </fieldset>
+                    <fieldset>
+                        <legend>Delivery Address</legend>
+                        <label for="Address">1.Address</label>
+                        <textarea id="Address" name="Address" cols="20" rows="3"></textarea><br>
+                        <label for="Post Code">2.Post Code: </label>
+                        <input name="Post Code" id="Post Code" > <br> 
+                        <label for="Country">3.Country </label>
+                        <input name="Country" id="Country" > <br> 
+                    </fieldset>
+                    <fieldset> 
+                        <legend>Card details</legend>
+                        <fieldset>
+                            <legend>Card type</legend>
+                            <ol>
+                                <li> <input type="radio" name="VISA" id="VISA"> 
+                                    <label for="VISA">VISA</label>
+                                </li>
+                                <li><input type="radio" name="AmEX" id="AmEX">
+                                    <label for="AmEX">AmEx </label>
+                                </li>
+                                <li><input type="radio" name="Mastercard" id="Mastercard"> 
+                                    <label for="Mastercard">Mastercard </label>
+                                </li>
+                            </ol>
+                        </fieldset>
+                        <label for="Card number">2.Card number</label>
+                        <input type="number" id="Card number" name="Card number"><br>
+                        <label for="Security Code">3.Security Code </label>
+                        <input type="number" id="Security Code" name="Security Code"><br>
+                        <label for="Name or Card">4.Name or Card </label>
+                        <input type="text" id="Name or Card" name="Name or card" placeholder="Exact name as on the"><br>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="buy it!">
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
